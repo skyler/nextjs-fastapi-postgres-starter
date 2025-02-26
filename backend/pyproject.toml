@@ -14,6 +14,8 @@ asyncpg = "*"
 greenlet = "*"
 psycopg2 = "*"
 uvicorn = "*"
+websockets = "^15.0"
+wonderwords = "^2.2.0"
 
 
 [build-system]

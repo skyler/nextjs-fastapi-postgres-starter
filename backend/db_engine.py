@@ -11,4 +11,4 @@ sync_engine = create_engine(_sync_uri)
 
 Base.metadata.create_all(sync_engine)
 
-engine = create_async_engine(_async_uri)
+engine = create_async_engine(_async_uri, echo=True)
